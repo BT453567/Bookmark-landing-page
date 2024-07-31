@@ -15,6 +15,7 @@ const header = document.querySelector(".header");
 const overlay = document.querySelector('.mobile-menu-overlay');
 const hero = document.querySelector('.hero');
 const body = document.body;
+const html = document.documentElement;
 const logoCircle = document.querySelector('.logo-circle');
 const logoBookmark = document.querySelector('.logo-middle');
 const logoLettering = document.querySelector('.logo-lettering');
@@ -121,6 +122,7 @@ function closeMenu() {
     overlay.classList.remove('mobile-menu-overlay--active');
     menuButtonIMG.src = './assets/images/icon-hamburger.svg';
     body.classList.remove('u-no-scroll');
+    html.classList.remove('u-no-scroll');
     hero.classList.remove('hero--menu-active');
     logoCircle.classList.remove('logo-circle--menu-active');
     logoBookmark.classList.remove('logo-middle--menu-active');
@@ -136,6 +138,7 @@ function openMenu() {
     overlay.classList.add('mobile-menu-overlay--active');
     menuButtonIMG.src = './assets/images/icon-close.svg';
     body.classList.add('u-no-scroll');
+    html.classList.add('u-no-scroll');
     hero.classList.add('hero--menu-active');
     logoCircle.classList.add('logo-circle--menu-active');
     logoBookmark.classList.add('logo-middle--menu-active');
