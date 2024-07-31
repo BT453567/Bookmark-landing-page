@@ -38,6 +38,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    width: 100vh;
 }
 
 /* Utility classes */
