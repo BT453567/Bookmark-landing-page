@@ -20,7 +20,6 @@
 
 html {
     box-sizing: border-box;
-    overflow-x: hidden;
 }
   
 *,
@@ -35,12 +34,7 @@ body {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     color: var(--grayish-blue);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     overflow-x: hidden;
-    height: 100vh;
-    width: 100vw;
 }
 
 /* Utility classes */
