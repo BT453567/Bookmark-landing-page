@@ -35,7 +35,7 @@ body {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     color: var(--grayish-blue);
-    
+    overflow-x: hidden;
 }
 
 /* Utility classes */
